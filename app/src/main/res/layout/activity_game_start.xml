@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    tools:context=".GameStart" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="@color/lightGrey"
+        android:text="You get 30 seconds each for answering question. Points for each question depends upon how quickly you answer it!" />
+
+    <Button
+        android:id="@+id/proceed_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:textColor="@color/lightGrey2"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="Proceed"
+        />
+
+</RelativeLayout>

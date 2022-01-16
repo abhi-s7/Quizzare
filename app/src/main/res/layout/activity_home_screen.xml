@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    tools:context=".HomeScreen" >
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view_highscore"
+        android:layout_alignRight="@+id/view_highscore"
+        android:layout_below="@+id/view_highscore"
+        android:textColor="@color/lightGrey2"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="37dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/view_highscore"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/lightGrey2"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text=" High Score"
+         />
+
+    <Button
+        android:id="@+id/start_game"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view_highscore"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="87dp"
+        android:textColor="@color/lightGrey2"
+        android:background="@drawable/round_button"
+        android:text="Start Game"
+         />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:textAlignment="center"
+        android:text="Welcome"
+        android:textColor="@color/lightGrey"
+        android:textSize="35sp" />
+
+    <TextView
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/darkgreylighter"
+        android:text="Created by - Abhishek" />
+
+</RelativeLayout>
